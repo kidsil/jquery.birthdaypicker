@@ -12,7 +12,8 @@
   // plugin variables
   var months = {
     "short": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-    "long": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] },
+    "long": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "none": [1,2,3,4,5,6,7,8,9,10,11,12] },
       curDate = new Date(),
       curYear = curDate.getFullYear(),
       curMonth = curDate.getMonth() + 1,
